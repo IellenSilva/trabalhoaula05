@@ -1,0 +1,31 @@
+ public static void Main(string[] args)
+    {
+        string primeiro;
+        string segundo;
+        string endereço;
+        string bairro;
+        string cidade;
+        string estado;
+        
+    Console.WriteLine("\n\n seja Bem-vindo a agencia de viangens conradito \n\n");
+    Console.WriteLine("\n vamos iniciar fazendo um cadastro para seu atendimento \n ");
+    Console.WriteLine("\n\n --- Informações cadastrais \n\n ");
+        
+        
+    Console.WriteLine($"Digite seu primeiro nome:");
+    primeiro = Console.ReadLine();
+    Console.WriteLine($"Agora digite seu sobrenome:");
+    segundo = Console.ReadLine();
+        
+    Console.WriteLine($" \n\n Olá sr(a). {primeiro} {segundo}, vamos continuar seu cadastro... \n\n");
+        
+    Console.WriteLine("Digite seu Endereço:");
+    endereço = Console.ReadLine();
+    Console.WriteLine("Bairro:");
+    bairro = Console.ReadLine();
+    Console.WriteLine("Cidade:");
+    cidade = Console.ReadLine();
+    Console.WriteLine("Estado:");
+    estado = Console.ReadLine();
+    Console.WriteLine($"Sr(a) {segundo}, mora na cidade de {cidade}-{estado}, no endereço {endereço}, localozado no bairro {bairro} ");
+    Console.WriteLine("");
